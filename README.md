@@ -28,7 +28,7 @@ Este guia resume os principais pontos a observar ao executar dois Ingress (ou In
 
 ---
 
-## 2. Criando ALB IngressClass (Externa & Interna)
+## 2. Criando ALB IngressClass (External & Internal)
 
 ```yaml
 # IngressClassParams
@@ -71,7 +71,7 @@ spec:
 
 ---
 
-## 3. Criando NLB via Service (Externa & Interna)
+## 3. Criando NLB via Service (External & Internal)
 
 > **Nota:** NLB é gerado a partir de Service, não via Ingress.
 
